@@ -50,6 +50,10 @@ for filename in files:
             rule_type = parts[0].strip().upper()
             rule_value = parts[1].strip()
             
+            # 【修复关键点】去除诸如 ,no-resolve 等 Surge 特有扩展参数
+            if "," in rule_value:
+                rule_value = rule_value.split(",")[0].strip()
+            
             if rule_type == "DOMAIN":
                 domains.append(rule_value)
             elif rule_type == "DOMAIN-SUFFIX":
