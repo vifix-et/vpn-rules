@@ -1,4 +1,4 @@
-# 拦截规则集 - Surge & OpenClash 共用
+# 拦截规则集 - surge专用，修改后会通过工作流自动在sing-box目录生成对应srs二进制规则文件，供sing-box使用
 # IP拦截
 IP-CIDR,10.112.207.227/32,no-resolve # 京智内网地址请求
 
