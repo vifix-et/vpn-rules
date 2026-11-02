@@ -1,4 +1,4 @@
-# 直连规则集
+# 直连规则集 - surge专用，修改后会通过工作流自动在sing-box目录生成对应srs二进制规则文件，供sing-box使用
 DOMAIN-SUFFIX,7475778.xyz # 陈超us+刘清jp
 DOMAIN-SUFFIX,5181618.xyz # 李航兵sg+李晓琰kr
 DOMAIN-SUFFIX,95278811.xyz # 黄羽欣sg+李晓琰us
