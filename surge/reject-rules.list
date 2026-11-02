@@ -1,1 +1,17 @@
+# 拦截规则集 - Surge & OpenClash 共用
+# IP拦截
+IP-CIDR,10.112.207.227/32,no-resolve # 京智内网地址请求
 
+# 域名拦截
+DOMAIN-SUFFIX,qianguolive.cn
+DOMAIN-SUFFIX,xiaoeknow.com
+DOMAIN-SUFFIX,vzan.com
+DOMAIN-SUFFIX,xiaoe-live.com
+DOMAIN-SUFFIX,cdfmcgshop.com
+DOMAIN-SUFFIX,jzrwshop.com
+DOMAIN-SUFFIX,vlebo.cn
+DOMAIN,liveplay-xcx.rtxapp.com
+DOMAIN,stun1.qvb.qcloud.com
+DOMAIN-SUFFIX,fmyda.cn
+DOMAIN,hn.bfvvs.com
+DOMAIN,m.activity-wbsj.com
