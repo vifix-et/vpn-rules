@@ -1,2 +1,2 @@
-# 代理规则集
+# 代理规则集 - surge专用，修改后会通过工作流自动在sing-box目录生成对应srs二进制规则文件，供sing-box使用
 DOMAIN-SUFFIX,mox.moe # 漫画网站
